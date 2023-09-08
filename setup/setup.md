@@ -10,4 +10,6 @@
 ### Visual Studio Code
 - https://code.visualstudio.com/download#
 
+### MobaXterm
+- https://download.mobatek.net/2322023060714555/MobaXterm_Installer_v23.2.zip
 
