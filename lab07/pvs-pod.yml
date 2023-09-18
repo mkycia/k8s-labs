@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pvs-pod
+spec:
+  containers:
+  - name: c1
+    image: centos:7
+    command:
+      - sleep
+      - "3600"
+    volumeMounts:
+      - mountPath: /data1
+        name: data
+  - name: c2
+    image: centos:7
+    command:
+      - sleep
+      - "3600"
+    volumeMounts:
+      - mountPath: /data2
+        name: data
+  volumes:
+    - name: data
+      emptyDir: {}
