@@ -1,4 +1,4 @@
-# LAB-09
+# LAB-10
 
 ```
 1. kubectl create deployment mydb --image=mariadb --replicas=1

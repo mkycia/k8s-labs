@@ -1,4 +1,4 @@
-# LAB-08
+# LAB-09
 
 ```
 1. kubectl create cm my1stdbvarscm --from-literal=MYSQL_ROOT_PASSWORD=password 
