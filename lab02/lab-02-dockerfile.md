@@ -14,7 +14,7 @@ CMD ["node", "src/index.js"]
 EXPOSE 3000
 EOF
 
-4. docker build –t getting-started:v1 .
+4. docker build -t getting-started:v1 .
 
 5. docker images
 
