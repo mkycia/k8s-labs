@@ -29,7 +29,7 @@ type: NodePort
 
 11. curl http://$(minikube ip):32000
 
-12. kubectl create ingress nginx-ingress --rule="/=nginx:80" --rule="/hello=hello-app:8080
+12. kubectl create ingress nginx-ingress --rule="/=nginx:80" --rule="/hello=hello-app:8080"
 
 13. kubectl get ingress         # poczekać, aż wyświetli się IP węzła
 
