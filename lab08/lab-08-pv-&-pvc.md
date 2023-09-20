@@ -1,13 +1,25 @@
-# LAB-07
+# LAB-08
 
 ```
-1. kubectl create -f vol-pod.yml
+1. kubectl apply -f pv.yaml
 
-2. kubectl get pods 
+2. Kubectl get pv
 
-3. kubectl describe pods vol-pod 		      # proszę zauważyć, że to jest multi-container pod
 
-4. kubectl exec -it vol-pod -c c1 -- touch /data1/test
+3. kubectl apply -f pvc.yaml
 
-5. kubectl exec -it vol-pod -c c2 -- ls -l /data2
+4. kubectl get pvc
+
+5. kubectl describe pvc pvc1
+
+
+6. kubectl apply -f storage-pod.yaml
+
+7. kubectl describe pod storage-pod
+
+8. kubectl exec -it storage-pod -- ls -la /usr/share/nginx/html
+
+9. minikube ssh 
+
+10 .ls -la /data
 ```
