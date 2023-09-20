@@ -21,5 +21,5 @@
 
 9. minikube ssh 
 
-10 .ls -la /data
+10. ls -la /data
 ```
