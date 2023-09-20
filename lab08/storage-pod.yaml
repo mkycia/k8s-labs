@@ -9,6 +9,7 @@ spec:
       claimName: pvc1
   containers:
   - image: nginx
+    name: nginx
     volumeMounts:
     - mountPath: "/usr/share/nginx/html"
       name: storage1-volume
